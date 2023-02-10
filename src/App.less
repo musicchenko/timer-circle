@@ -1,0 +1,24 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    &__btn {
+        font-size: 2rem;
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        padding: 3rem 6rem;
+        align-self: center;
+        cursor: pointer;
+        &_gray {
+            background-color: gray;
+            cursor: default;
+        }
+    }
+    &__cubes {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+}

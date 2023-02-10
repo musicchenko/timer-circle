@@ -1,0 +1,1 @@
+export const TIMER_SECONDS: number = 5;

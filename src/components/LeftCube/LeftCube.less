@@ -1,0 +1,16 @@
+.cube-left {
+    animation: float 5s;
+    animation-iteration-count: infinite;
+    align-self: center;
+    @keyframes float {
+        0% {
+            transform: translateY(-100%);
+        }
+        50% {
+            transform: translateY(100%);
+        }
+        100% {
+            transform: translateY(-100%);
+        }
+    }
+}
